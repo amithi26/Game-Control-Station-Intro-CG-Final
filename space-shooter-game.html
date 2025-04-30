@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Game will be rendered here -->
+    
+    <!-- Import Three.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    
+    <!-- Import the game script -->
+    <script type="module" src="spaceShooterGame.js"></script>
+    
+    <!-- Game instructions -->
+    <div style="position: absolute; bottom: 20px; left: 20px; color: white; font-family: Arial, sans-serif; text-shadow: 0 0 5px #00ffff;">
+        <p>Controls: WASD or Arrow Keys to move | Space to shoot</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      }
+    ],
+    "routes": [
+    { "src": "/jump-game", "dest": "/jump-game.html" },
+    { "src": "/candy-car-game", "dest": "/candy-car-game.html" },
+    { "src": "/space-shooter-game", "dest": "/space-shooter-game.html" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+  }
